@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD50331417B65B5A00077B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50330A17B65B5A00077B7D /* main.m */; };
+		FD50332217B65C2000077B7D /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50332017B65C2000077B7D /* DetailViewController.m */; };
+		FD50332617B6620A00077B7D /* AppRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50332517B6620A00077B7D /* AppRecord.m */; };
+		FD50332B17B6622800077B7D /* ParseOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50332817B6622700077B7D /* ParseOperation.m */; };
+		FD50332C17B6622800077B7D /* IconDownloader.m in Sources */ = {isa = PBXBuildFile; fileRef = FD50332A17B6622800077B7D /* IconDownloader.m */; };
+		FD50333717B6631E00077B7D /* Placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = FD50333217B6631E00077B7D /* Placeholder.png */; };
+		FD50333817B6631E00077B7D /* Placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD50333317B6631E00077B7D /* Placeholder@2x.png */; };
+		FDA5C1F917F30B9F00E7B53D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C1F617F30B9F00E7B53D /* Default-568h@2x.png */; };
+		FDA5C1FA17F30B9F00E7B53D /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C1F717F30B9F00E7B53D /* Default.png */; };
+		FDA5C1FB17F30B9F00E7B53D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C1F817F30B9F00E7B53D /* Default@2x.png */; };
+		FDA5C20917F32FF900E7B53D /* icon_back.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C20817F32FF900E7B53D /* icon_back.png */; };
+		FDA5C20B17F33F5600E7B53D /* TitleBGImage.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C20A17F33F5600E7B53D /* TitleBGImage.png */; };
+		FDA5C22617F4594A00E7B53D /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C22517F4594900E7B53D /* Icon.png */; };
+		FDA5C22817F4594F00E7B53D /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = FDA5C22717F4594F00E7B53D /* Icon@2x.png */; };
+		FDAC9E5817B965570071CAE0 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAC9E5617B965560071CAE0 /* RootViewController.m */; };
+		FDB0D68F17BE52CA005D6A19 /* TopSongsConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0D68E17BE52CA005D6A19 /* TopSongsConstant.m */; };
+		FDB0D69217BE5665005D6A19 /* TopSongsUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0D69117BE5665005D6A19 /* TopSongsUtil.m */; };
+		FDB0D69417BE6017005D6A19 /* bg_main.png in Resources */ = {isa = PBXBuildFile; fileRef = FDB0D69317BE6017005D6A19 /* bg_main.png */; };
+		FDB0D69F17BE6874005D6A19 /* TopSongsAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDB0D69E17BE6874005D6A19 /* TopSongsAppDelegate.m */; };
+		FDE0749017B6578E0034A7C2 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0748F17B6578E0034A7C2 /* UIKit.framework */; };
+		FDE0749217B6578E0034A7C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0749117B6578E0034A7C2 /* Foundation.framework */; };
+		FDE0749417B6578E0034A7C2 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0749317B6578E0034A7C2 /* CoreGraphics.framework */; };
+		FDF3A16D17B97D6000D9AF01 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE0749517B6578E0034A7C2 /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD50330317B65B5A00077B7D /* TopSongsAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSongsAppDelegate.h; sourceTree = "<group>"; };
+		FD50330917B65B5A00077B7D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FD50330A17B65B5A00077B7D /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FD50330B17B65B5A00077B7D /* TopSongs-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "TopSongs-Info.plist"; sourceTree = "<group>"; };
+		FD50330C17B65B5A00077B7D /* TopSongs-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TopSongs-Prefix.pch"; sourceTree = "<group>"; };
+		FD50330E17B65B5A00077B7D /* TopSongs.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TopSongs.xcdatamodel; sourceTree = "<group>"; };
+		FD50331F17B65C2000077B7D /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FD50332017B65C2000077B7D /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FD50332417B6620A00077B7D /* AppRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppRecord.h; sourceTree = "<group>"; };
+		FD50332517B6620A00077B7D /* AppRecord.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppRecord.m; sourceTree = "<group>"; };
+		FD50332717B6622700077B7D /* ParseOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ParseOperation.h; sourceTree = "<group>"; };
+		FD50332817B6622700077B7D /* ParseOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ParseOperation.m; sourceTree = "<group>"; };
+		FD50332917B6622800077B7D /* IconDownloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IconDownloader.h; sourceTree = "<group>"; };
+		FD50332A17B6622800077B7D /* IconDownloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IconDownloader.m; sourceTree = "<group>"; };
+		FD50333217B6631E00077B7D /* Placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Placeholder.png; path = ../Placeholder.png; sourceTree = "<group>"; };
+		FD50333317B6631E00077B7D /* Placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Placeholder@2x.png"; path = "../Placeholder@2x.png"; sourceTree = "<group>"; };
+		FDA5C1F617F30B9F00E7B53D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		FDA5C1F717F30B9F00E7B53D /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		FDA5C1F817F30B9F00E7B53D /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		FDA5C20817F32FF900E7B53D /* icon_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon_back.png; sourceTree = "<group>"; };
+		FDA5C20A17F33F5600E7B53D /* TitleBGImage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = TitleBGImage.png; sourceTree = "<group>"; };
+		FDA5C22517F4594900E7B53D /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		FDA5C22717F4594F00E7B53D /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		FDAC9E5517B965550071CAE0 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		FDAC9E5617B965560071CAE0 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		FDB0D68D17BE52CA005D6A19 /* TopSongsConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSongsConstant.h; sourceTree = "<group>"; };
+		FDB0D68E17BE52CA005D6A19 /* TopSongsConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSongsConstant.m; sourceTree = "<group>"; };
+		FDB0D69017BE5665005D6A19 /* TopSongsUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TopSongsUtil.h; sourceTree = "<group>"; };
+		FDB0D69117BE5665005D6A19 /* TopSongsUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSongsUtil.m; sourceTree = "<group>"; };
+		FDB0D69317BE6017005D6A19 /* bg_main.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg_main.png; sourceTree = "<group>"; };
+		FDB0D69E17BE6874005D6A19 /* TopSongsAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TopSongsAppDelegate.m; sourceTree = "<group>"; };
+		FDE0748B17B6578E0034A7C2 /* TopSongs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TopSongs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDE0748F17B6578E0034A7C2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FDE0749117B6578E0034A7C2 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FDE0749317B6578E0034A7C2 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FDE0749517B6578E0034A7C2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FDE0748817B6578E0034A7C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDE0749017B6578E0034A7C2 /* UIKit.framework in Frameworks */,
+				FDE0749217B6578E0034A7C2 /* Foundation.framework in Frameworks */,
+				FDE0749417B6578E0034A7C2 /* CoreGraphics.framework in Frameworks */,
+				FDF3A16D17B97D6000D9AF01 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD50330217B65B5A00077B7D /* TopSongs */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0D68C17BE5290005D6A19 /* Util */,
+				FD50332D17B6629E00077B7D /* images */,
+				FD50331917B65BAF00077B7D /* Model */,
+				FD50331717B65B6200077B7D /* ViewController */,
+				FD50330317B65B5A00077B7D /* TopSongsAppDelegate.h */,
+				FDB0D69E17BE6874005D6A19 /* TopSongsAppDelegate.m */,
+				FD50330817B65B5A00077B7D /* InfoPlist.strings */,
+				FD50330A17B65B5A00077B7D /* main.m */,
+				FD50330B17B65B5A00077B7D /* TopSongs-Info.plist */,
+				FD50330C17B65B5A00077B7D /* TopSongs-Prefix.pch */,
+				FD50330D17B65B5A00077B7D /* TopSongs.xcdatamodeld */,
+			);
+			path = TopSongs;
+			sourceTree = "<group>";
+		};
+		FD50331717B65B6200077B7D /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FD50332717B6622700077B7D /* ParseOperation.h */,
+				FD50332817B6622700077B7D /* ParseOperation.m */,
+				FD50332917B6622800077B7D /* IconDownloader.h */,
+				FD50332A17B6622800077B7D /* IconDownloader.m */,
+				FD50331F17B65C2000077B7D /* DetailViewController.h */,
+				FD50332017B65C2000077B7D /* DetailViewController.m */,
+				FDAC9E5617B965560071CAE0 /* RootViewController.m */,
+				FDAC9E5517B965550071CAE0 /* RootViewController.h */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		FD50331917B65BAF00077B7D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FD50332417B6620A00077B7D /* AppRecord.h */,
+				FD50332517B6620A00077B7D /* AppRecord.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		FD50332D17B6629E00077B7D /* images */ = {
+			isa = PBXGroup;
+			children = (
+				FDA5C22717F4594F00E7B53D /* Icon@2x.png */,
+				FDA5C22517F4594900E7B53D /* Icon.png */,
+				FDA5C20A17F33F5600E7B53D /* TitleBGImage.png */,
+				FDA5C20817F32FF900E7B53D /* icon_back.png */,
+				FDA5C1F617F30B9F00E7B53D /* Default-568h@2x.png */,
+				FDA5C1F717F30B9F00E7B53D /* Default.png */,
+				FDA5C1F817F30B9F00E7B53D /* Default@2x.png */,
+				FDB0D69317BE6017005D6A19 /* bg_main.png */,
+				FD50333217B6631E00077B7D /* Placeholder.png */,
+				FD50333317B6631E00077B7D /* Placeholder@2x.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+		FDB0D68C17BE5290005D6A19 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				FDB0D68D17BE52CA005D6A19 /* TopSongsConstant.h */,
+				FDB0D68E17BE52CA005D6A19 /* TopSongsConstant.m */,
+				FDB0D69017BE5665005D6A19 /* TopSongsUtil.h */,
+				FDB0D69117BE5665005D6A19 /* TopSongsUtil.m */,
+			);
+			name = Util;
+			sourceTree = "<group>";
+		};
+		FDE0748017B6578E0034A7C2 = {
+			isa = PBXGroup;
+			children = (
+				FD50330217B65B5A00077B7D /* TopSongs */,
+				FDE0748E17B6578E0034A7C2 /* Frameworks */,
+				FDE0748C17B6578E0034A7C2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FDE0748C17B6578E0034A7C2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0748B17B6578E0034A7C2 /* TopSongs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FDE0748E17B6578E0034A7C2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDE0748F17B6578E0034A7C2 /* UIKit.framework */,
+				FDE0749117B6578E0034A7C2 /* Foundation.framework */,
+				FDE0749317B6578E0034A7C2 /* CoreGraphics.framework */,
+				FDE0749517B6578E0034A7C2 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FDE0748A17B6578E0034A7C2 /* TopSongs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDE074AE17B6578E0034A7C2 /* Build configuration list for PBXNativeTarget "TopSongs" */;
+			buildPhases = (
+				FDE0748717B6578E0034A7C2 /* Sources */,
+				FDE0748817B6578E0034A7C2 /* Frameworks */,
+				FDE0748917B6578E0034A7C2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TopSongs;
+			productName = TopSongs;
+			productReference = FDE0748B17B6578E0034A7C2 /* TopSongs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FDE0748217B6578E0034A7C2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Individual;
+			};
+			buildConfigurationList = FDE0748517B6578E0034A7C2 /* Build configuration list for PBXProject "TopSongs" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = FDE0748017B6578E0034A7C2;
+			productRefGroup = FDE0748C17B6578E0034A7C2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FDE0748A17B6578E0034A7C2 /* TopSongs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FDE0748917B6578E0034A7C2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD50333717B6631E00077B7D /* Placeholder.png in Resources */,
+				FD50333817B6631E00077B7D /* Placeholder@2x.png in Resources */,
+				FDB0D69417BE6017005D6A19 /* bg_main.png in Resources */,
+				FDA5C1F917F30B9F00E7B53D /* Default-568h@2x.png in Resources */,
+				FDA5C1FA17F30B9F00E7B53D /* Default.png in Resources */,
+				FDA5C1FB17F30B9F00E7B53D /* Default@2x.png in Resources */,
+				FDA5C20917F32FF900E7B53D /* icon_back.png in Resources */,
+				FDA5C20B17F33F5600E7B53D /* TitleBGImage.png in Resources */,
+				FDA5C22617F4594A00E7B53D /* Icon.png in Resources */,
+				FDA5C22817F4594F00E7B53D /* Icon@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FDE0748717B6578E0034A7C2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD50331417B65B5A00077B7D /* main.m in Sources */,
+				FD50332217B65C2000077B7D /* DetailViewController.m in Sources */,
+				FD50332617B6620A00077B7D /* AppRecord.m in Sources */,
+				FD50332B17B6622800077B7D /* ParseOperation.m in Sources */,
+				FD50332C17B6622800077B7D /* IconDownloader.m in Sources */,
+				FDAC9E5817B965570071CAE0 /* RootViewController.m in Sources */,
+				FDB0D68F17BE52CA005D6A19 /* TopSongsConstant.m in Sources */,
+				FDB0D69217BE5665005D6A19 /* TopSongsUtil.m in Sources */,
+				FDB0D69F17BE6874005D6A19 /* TopSongsAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD50330817B65B5A00077B7D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD50330917B65B5A00077B7D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FDE074AC17B6578E0034A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FDE074AD17B6578E0034A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FDE074AF17B6578E0034A7C2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopSongs/TopSongs-Prefix.pch";
+				INFOPLIST_FILE = "TopSongs/TopSongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FDE074B017B6578E0034A7C2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TopSongs/TopSongs-Prefix.pch";
+				INFOPLIST_FILE = "TopSongs/TopSongs-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FDE0748517B6578E0034A7C2 /* Build configuration list for PBXProject "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE074AC17B6578E0034A7C2 /* Debug */,
+				FDE074AD17B6578E0034A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDE074AE17B6578E0034A7C2 /* Build configuration list for PBXNativeTarget "TopSongs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FDE074AF17B6578E0034A7C2 /* Debug */,
+				FDE074B017B6578E0034A7C2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD50330D17B65B5A00077B7D /* TopSongs.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD50330E17B65B5A00077B7D /* TopSongs.xcdatamodel */,
+			);
+			currentVersion = FD50330E17B65B5A00077B7D /* TopSongs.xcdatamodel */;
+			path = TopSongs.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FDE0748217B6578E0034A7C2 /* Project object */;
+}
